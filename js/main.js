@@ -14,11 +14,11 @@ function createElement(tag, classname, content) {
   return element;
 }
 
-function changeColor(linkClassname, classname) {
-  const element = document.querySelector(linkClassname);
-  element.classList.add(classname);
-  console.log('colore cambiato');
-}
+// function changeColor(linkClassname, classname) {
+//   const element = document.querySelector(linkClassname);
+//   element.classList.add(classname);
+//   console.log('colore cambiato');
+// }
 
 const playButton = document.getElementById('play-button');
 const main = document.querySelector('main');
@@ -40,7 +40,8 @@ playButton.addEventListener('click', function () {
   for (let i = 0; i < 100; i++) {
     const myElement = createElement('div', 'cella', i);
     myElement.addEventListener('click', function () {
-      changeColor('.cella', 'colore-cella');
+      console.log(i);
+      myElement.classList.add('colore-cella');
     });
 
     grid.append(myElement);
