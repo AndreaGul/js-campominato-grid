@@ -31,8 +31,10 @@ console.log(playButton);
 
 playButton.addEventListener('click', function () {
   titolo.remove();
+  main.innerHTML = '';
 
   const grid = document.createElement('div');
+
   grid.classList.add('grid');
 
   // 2 Con l'inserimento delle caselle nel main tramite un ciclo for la variabile che usciamo per il ciclo può essere utilizata come indice della casella.
