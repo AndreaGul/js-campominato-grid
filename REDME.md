@@ -4,7 +4,7 @@ Ogni cella ha un numero progressivo, da 1 a 100.
 Ci saranno quindi 10 caselle per ognuna delle 10 righe.
 Quando l'utente clicca su ogni cella, la cella cliccata si colore di azzurro ed emetto un messaggio in console con il numero della cella cliccata.
 
-1 sul bottone play dove l'utente clicchera ci agganciamo un event listener che nel momento che attivato va ad inserire nel main tutte le caselle.
+1 sul bottone play dove l'utente clicchera ci agganciamo un event listener che nel momento in cui viene attivato va ad inserire nel main tutte le caselle.
 Dobbiamo tener conto che ogni volta che creaiamo le caselle quelle nuove saranno sovrascitte a quelle vecchie.
 
 2 Con l'inserimento delle caselle nel main tramite un ciclo for la variabile che usciamo per il ciclo può essere utilizata come indice della casella.
